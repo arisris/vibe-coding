@@ -4,7 +4,7 @@
 <main class="flex-grow flex items-center justify-center">
   <div class="w-full max-w-4xl mx-auto px-4 py-16 text-center relative">
     <!-- Latar belakang gradien -->
-    <div class="absolute inset-0 bg-radial from-blue-100 from-1% to-transparent"></div>
+    <div class="absolute inset-0 bg-radial from-gray-200 from-1% to-transparent"></div>
 
     <!-- Konten di atas gradien -->
     <div class="relative z-10 flex flex-col items-center py-16">
@@ -12,7 +12,7 @@
       <div
         class="border border-gray-300 bg-white rounded-lg px-3 py-1 text-sm mb-8 shadow-sm"
       >
-        Powered by <span class="font-semibold">Together AI</span>. Used by
+        Powered by <span class="font-semibold">AI</span>. Used by
         <span class="font-semibold">1.9M+ users</span>.
       </div>
 
@@ -37,7 +37,7 @@
       >
         <textarea
           placeholder="Build me a budgeting app..."
-          class="flex-grow w-full text-base p-2 border-none focus:ring-0 outline-none bg-transparent min-h-32"
+          class="flex-grow w-full text-base p-2 border-none focus:ring-0 outline-none bg-transparent min-h-24"
         ></textarea>
         <div class="flex items-center gap-2 w-full">
           <button

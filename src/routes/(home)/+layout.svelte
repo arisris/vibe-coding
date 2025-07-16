@@ -34,8 +34,8 @@
       class="container mx-auto px-6 py-4 flex justify-between items-center text-sm text-gray-500"
     >
       <p>
-        Built with <span class="font-semibold text-gray-600">Llama</span> and
-        <span class="font-semibold text-gray-600">Together AI</span>
+        Built By
+        <span class="font-semibold text-gray-600">Arisris.com</span>
       </p>
       <div class="flex items-center gap-4">
         <a href="/#" class="hover:text-gray-800 transition-colors">
