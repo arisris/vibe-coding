@@ -1,0 +1,10 @@
+node_modules/
+.vscode/.bak/
+.wrangler/
+.sveltekit/
+.dev.vars
+.env
+package.lock.json
+bun.lock
+patch/
+migrations/

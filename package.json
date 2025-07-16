@@ -1,0 +1,31 @@
+{
+  "name": "vibe-coding",
+  "version": "1.0.0",
+  "description": "Get started by customizing your environment (defined in the .idx/dev.nix file) with the tools and IDE extensions you'll need for your project!",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "typegen": "svelte-kit sync",
+    "clean": "rm -rf node_modules .svelte-kit && npm install --prefer-offline && npm run typegen"
+  },
+  "devDependencies": {
+    "@ai-sdk/openai-compatible": "^1.0.0-beta.5",
+    "@ai-sdk/svelte": "^3.0.0-beta.19",
+    "@sveltejs/kit": "^2.24.0",
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "ai": "^5.0.0-beta.19",
+    "svelte": "^5.36.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.76"
+  },
+  "prettier": {
+    "singleQuote": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 11,
+  "files.autoSave": "off",
+  "files.associations": {
+    "*tsconfig.json": "jsonc",
+    "*.css": "tailwindcss",
+    "*.vars": "ini"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+  },
+}
