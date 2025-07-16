@@ -1,4 +1,4 @@
-import { llama_3_3_70b } from "$lib/server/ai-service";
+import { llama_3_3_70b } from "$lib/server/ai";
 import { convertToModelMessages, streamText, type UIMessage } from "ai";
 
 const SYSTEM_PROMPT = "You are a helpful coding assistant.";

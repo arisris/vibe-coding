@@ -21,16 +21,16 @@ Your proposed project structure is excellent and follows SvelteKit's conventions
 dash case file naming is must for consistency.
 ```
 src
-├── app.css  // Global CSS styles for the application
 ├── app.d.ts // TypeScript declaration file for the SvelteKit app
 ├── app.html // Main HTML file for the SvelteKit app
 ├── lib      // Contains reusable components, modules, and utilities
+|   ├── app.css  // Global CSS styles for the application
 │   ├── index.ts // Entry point for the lib directory
 │   ├── theme.svelte.ts // Theme related logic or store
 │   ├── actions  // Svelte actions
 │   │   └── click-outside.svelte.ts // Action for detecting clicks outside an element
 │   ├── server // Server-side code
-│   │   ├── ai-service.ts // Service for interacting with AI models
+│   │   ├── ai.ts // Service for interacting with AI models
 │   │   └── db.ts // Database related functions
 │   ├── stores // Svelte stores for managing application state
 │   │   ├── auth-store.svelte.ts // Store for authentication state
@@ -60,4 +60,24 @@ src
 
 ### Coding Guidelines
 
+1. Svelte component must be writen in runes mode. good example to start:
+    ```svelte
+    <!-- script1 (optional) when need to export some variable or snippets -->
+    <script lang="ts" module>
+      
+    </script>
+    <!-- script2 (required) -->
+    <script lang="ts">
+      let {} = $props()
+    </script>
+    <!-- HTML -->
+    --- rest of html template file in svelte component ---
+    <!-- css -->
+    <style lang="postcss">
+      /** reference base app.css file when need to use tailwind directive like @apply or other */
+      @reference "$lib/app.css";
+      ... rest of tailwindcss css definition ...
+    </style>
+    ```
 ### Related links
+[Svelte](https://svelte.dev)

@@ -1,4 +1,4 @@
-import { llama_3_3_70b, allModel } from "$lib/server/ai-service";
+import { llama_3_3_70b, allModel } from "$lib/server/ai";
 import { generateText } from "ai";
 
 const models = Object.entries(allModel);
