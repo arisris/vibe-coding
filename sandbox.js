@@ -2,8 +2,7 @@ import { Daytona } from "@daytonaio/sdk";
 
 const PORT = 3000;
 const daytona = new Daytona({
-  apiKey:
-    "dtn_4bc4c28135160cc3f0f8c9cfeac90f3ab925920b048393d11c14469ed54475a0",
+  apiKey: "",
   apiUrl: "https://app.daytona.io/api",
 });
 
